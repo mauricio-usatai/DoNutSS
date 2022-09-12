@@ -8,16 +8,8 @@ body {
     background-color: #151616 !important;
 }
 
-h2 {
+h1, h2, h3, h4, h5 {
     margin-bottom: 0 !important;
-    color: rgb(232, 230, 227) !important;
-}
-
-h3 {
-    color: rgb(232, 230, 227) !important;
-}
-
-h5 {
     color: rgb(232, 230, 227) !important;
 }
 
@@ -129,6 +121,45 @@ a:hover {
     height: 70% !important;
 }
 
+/* Section divider */
+.page-section {
+    margin-top: 2%;
+    width: fit-content;
+    height: fit-content;
+    padding: 15px;
+    margin-left: calc(3.5% + 5px);
+    background-color:rgb(0, 48, 66);
+    box-shadow: -5px 0 0 0px #99fff391;
+}
+
+.page-section-lg {
+    margin-top: 2%;
+    width: 150px;
+    height: fit-content;
+    padding: 15px;
+    margin-left: calc(3.5% + 5px);
+    background-color:rgb(0, 48, 66);
+    box-shadow: -5px 0 0 0px #99fff391;
+}
+
+.page-section h4 {
+    color: rgb(232, 230, 227);
+    position: relative;
+    top: 50%;
+}
+
+.text-section {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 93%;
+}
+
+.text-section p {
+    color: rgb(232, 230, 227);
+}
+
 /* Table */
 table {
     font-size: 15px;
@@ -173,12 +204,26 @@ table.dataTable thead td {
 .table-striped > tbody > tr:nth-child(odd) > th {
     color: rgb(232, 230, 227);
     background-color: #151616;
+    transition: all 0.2s linear;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td:hover, 
+.table-striped > tbody > tr:nth-child(odd) > th:hover {
+    color: rgb(232, 230, 227);
+    background-color: #393d3d;
 }
 
 .table-striped > tbody > tr:nth-child(even) > td, 
 .table-striped > tbody > tr:nth-child(even) > th {
     color: rgb(232, 230, 227);
     background-color: rgb(0, 48, 66);
+    transition: all 0.2s linear;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td:hover, 
+.table-striped > tbody > tr:nth-child(even) > th:hover {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 90, 123);
 }
 
 .table-striped > tbody > tr > td > div, 
@@ -189,4 +234,28 @@ table.dataTable thead td {
 .table-striped > tbody > tr > td > span, 
 .table-striped > tbody > tr > th > span {
     display: inline-block;
+}
+
+#to-top-button {
+    display: none;
+    position: fixed;
+    background-color: #99fff391;
+    bottom: 20px;
+    right: 30px;
+    border-radius: 50%;
+    z-index: 3;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #002838;
+    outline: none;
+    color: rgb(232, 230, 227);
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s linear;
+}
+
+#to-top-button:hover {
+    background-color: #99fff3;
+    color: #002838;
 }
