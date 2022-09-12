@@ -1,0 +1,192 @@
+html {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: var(--bs-body-font-family) !important;
+}
+
+body {
+    background-color: #151616 !important;
+}
+
+h2 {
+    margin-bottom: 0 !important;
+    color: rgb(232, 230, 227) !important;
+}
+
+h3 {
+    color: rgb(232, 230, 227) !important;
+}
+
+h5 {
+    color: rgb(232, 230, 227) !important;
+}
+
+.container-shadow {
+    -moz-box-shadow:    0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.main-header {
+    background-color: #002838;
+    /* background-color: #00445F; */
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    --bs-gutter-x: 0rem !important; /* Fix right margin */
+} 
+
+.title {
+    color: rgb(232, 230, 227) !important;
+    font-family: var(--bs-body-font-family) !important;
+}
+
+.max-planck-logo > img {
+    margin: auto;
+    width: 150px;
+    height: auto;
+}
+
+.line-break-down {
+    position: relative;
+    padding: 1px;
+    margin-top: -1px;
+    margin-bottom: 20px;
+    background-color: #99fff391;
+    /* background-color: #d831dbce; */
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    border-radius: 10px;
+    border: 1px;
+    z-index: 2;
+    width: 60%;
+}
+
+.line-break-up {
+    position: relative;
+    padding: 1px;
+    margin-bottom: -1px;
+    background-color: #99fff391;
+    /* background-color: #d831dbce; */
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 1;
+    border-radius: 10px;
+    border: 1px;
+    z-index: 2;
+    width: 60%;
+}
+
+.ftco-navbar-light .navbar-nav >.nav-item >.nav-link:before {
+    background: #99fff391;
+}
+
+.dropdown-menu {
+    border:rgba(0, 0, 0, 0.5);
+    background-color: #151616 !important;
+}
+
+.dropdown-item {
+    color:rgb(232, 230, 227) !important;
+}
+
+.dropdown-item:hover {
+    background: #99fff391 !important;
+}
+
+.dropdown-item:visited  {
+    background: #002838 !important;
+}
+
+.navbar {
+    background-color: #151616 !important;
+}
+
+.nav-link {
+    color: rgb(232, 230, 227) !important;
+    font-size: 15px !important;
+}
+  
+a:hover {
+    color: #99fff391 !important;
+}
+
+.carousel-container {
+    background-color: #002838;
+    width: 100%;
+}
+
+.carousel {
+    margin: auto;
+    width: 93%;
+}
+
+.carousel-item > img {
+    width: 100%;
+    height: 70% !important;
+}
+
+/* Table */
+table {
+    font-size: 15px;
+    table-layout: auto;
+}
+
+.table {
+    border-color: #383d3f !important;
+}
+
+table.dataTable thead th,
+table.dataTable thead td {
+    border-color: rgb(134, 125, 110) !important;
+}
+
+.dataTables_info {
+    color: rgb(232, 230, 227) !important;
+}
+
+.dataTables_filter {
+    color: rgb(232, 230, 227) !important;
+}
+
+.dataTables_filter input {
+    background-color: #151616 !important;
+    color: rgb(232, 230, 227) !important;
+}
+
+.table-bordered th, .table-bordered td {
+    border-color: rgb(56, 61, 63);
+    border-top-color: rgb(56, 61, 63);
+    border-right-color: rgb(56, 61, 63);
+    border-bottom-color: rgb(56, 61, 63);
+    border-left-color: rgb(56, 61, 63);
+}
+
+.table > thead > tr > th {
+    color: rgb(232, 230, 227);
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, 
+.table-striped > tbody > tr:nth-child(odd) > th {
+    color: rgb(232, 230, 227);
+    background-color: #151616;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td, 
+.table-striped > tbody > tr:nth-child(even) > th {
+    color: rgb(232, 230, 227);
+    background-color: rgb(0, 48, 66);
+}
+
+.table-striped > tbody > tr > td > div, 
+.table-striped > tbody > tr > th > div {
+    display: inline-block;
+}
+
+.table-striped > tbody > tr > td > span, 
+.table-striped > tbody > tr > th > span {
+    display: inline-block;
+}
