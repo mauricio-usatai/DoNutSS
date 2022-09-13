@@ -12,12 +12,15 @@
         <script src="./js/index.js"></script>
     </head>
     <body>
+      <div class="toast">
+        <div class="toast-body">CODED WITH ❤️ BY 🍋 @ 2022</div>
+      </div>
       <div class="main-header row container-shadow">
         <div class="col-3 max-planck-logo">
           <img src="images/mpg_logo.png" class="d-block" alt="...">
         </div>
         <div class="col-6 text-center">
-          <h2 class="title">DoNutSS - Double Neutron Star System Catalogue</h2>
+          <h2 onclick="easterEgg()" class="title" style="user-select: none;">DoNutSS - Double Neutron Star System Catalogue</h2>
         </div>
         <div class="col-3 max-planck-logo">
           <img src="images/mpg_logo.png" class="d-block" alt="...">
@@ -161,5 +164,20 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
       }
+      </script>
+      <script>
+        let counter = 0;
+        function easterEgg() {
+          console.log(counter);
+          if ( counter == 5 ) {
+            $('.toast').toast('show');
+            setTimeout(() => {
+              $('.toast').toast('hide'); 
+            }, 10000);
+            counter = 0;
+            return;
+          }
+          counter++;
+        }
       </script>
 </html>

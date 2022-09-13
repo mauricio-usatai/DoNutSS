@@ -13,6 +13,21 @@ h1, h2, h3, h4, h5 {
     color: rgb(232, 230, 227) !important;
 }
 
+.toast {
+    position: absolute; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 20px; 
+    z-index: 5;
+    width: fit-content !important;
+    text-align: center;
+}
+
+.toast-body {
+    background-color:rgba(0, 165, 41, 0.731) !important;
+    color: white !important;
+}
+
 .container-shadow {
     -moz-box-shadow:    0px 0px 10px 5px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
